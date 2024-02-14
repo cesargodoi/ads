@@ -17,21 +17,30 @@ _inicio 1961 a 1972_
 - pós 2a guerra
 - Leonardo Kleinrock (61-64), MIT: técnica de comutação de pacotes em rajadas
 - ARPANET(primeira rede) e NCP(Network Control Protocol - primeiro protocolo)
+- segundo Kurose (2006) os primeiros estudos relacionados a redes de computadores ocorreram no inicio da década de 1960
+- Paul Baran (1964) efetuou a transmissão segura de voz em redes militares
+- 1969 a (UCLA) instalaou a primeira rede com capacidade de transmissão de mensagens por meio de mensagens
+- 1972 primeiro protocolo de comunicação em rede chamado NCP (Network Control Protocol)
 _surgimentode mais redes - 1972 a 1980_
-- ALOHAnet, Cyclades, Redes SNA
-- primeiras versões do TCP, IP e UDP
-- interesse militar americano
+- ALOHAnet: uma rede que ligava as universidades existentes nas ilhas do Havai
+- Cyclades: rede francesa com comutação de pacotes
+- Final da década 1970, o interesse militar americano na comunicação via rede favorecia as pesquisas (DARPA), foram projetadas as primeiras versões do protocolo TCP, IP e UDP
+- Redes SNA
+ - interesse militar americano
 _aumento do número de redes - 1980 a 1990_
+- Kurose (2006) descreve que, ao final da década de 1980, as universidades formaram uma confederação de redes com aproximadamente 100.000 dispositivos. Grande parte disso se deu no dia 1o de janeiro de 1983, quando o protocolo TCP/IP foi adotado oficialmente. Além disso surge o sistema de controle de nomes de domínios (DNS) que possibilitou a associação de um número de IP a um nome de um domínio. 
 - iniciativa privada
-- 1o janeirode 1983: adoção oficial do TCP/IP
+- 1o janeiro de 1983: adoção oficial do TCP/IP
 - surgimento do DNS
-- Minitel(França) - dispositivo para acesso a lista telefonica, serviço financeiro e sites particulares
+- Na década de 1980, o projeto Minitel, disponibilizou para 20% da população 3 tipos de serviços digitais: acesso a lista telefônica, navegação por sites particulares, utilização de homebank
 _Período evolutivo da internet - década de 1990_
-- World Wide Web (WWW) - CERN
+- A maior contribuição segundo Kurose (2006) surgiu na década de 1990. A principal foi a World Wide Web (WWW) - CERN
+- Ocorreu a evolução do hipertexto (html) para desenvolvimento de websites de dos navegadores.
 - Netscape e Internet Explorer
 - e-mail, e-commerce, ICQ, Napster(MP3 via P2P)
 _Atualmente_
 - evolução das tecnologias desenvolvidas para a comunicação
+- interdependencia entre os protocolos: HTTP/DNS/TCP/IP
 - vídeo on demand, VoIP, jogos online, streaming de músicas, entre outras
 - conexão de vários dispositivos à rede
 - IoT e 5G
@@ -66,8 +75,8 @@ _Atualmente_
 	- Rádio
 		- torres de transmissão até o ponto de instalação das antenas receptoras. Obtáculos causam perda da qualidade e as vezes até falha no sinal.
 	- Microondas
-		- viajam em linha reta entre o emissor e o receptor. Até 80km da antena a 100m no solo plano
-	- Satélites
+		- viajam em linha reta entre o emissor e o receptor. Até 80km da antena a 100m no solo plano. Faz-se necessário que haja visada entre as antenas
+	- Satélites: os sinais são enviados para os satélites geoestacionários. São divididos em LEO (Low Earth Orbit), MEO (Medium Earth Orbit) e o HEO (Hight Earth Orbit).
 
 #### Modos de Operação
 
@@ -76,6 +85,11 @@ _Atualmente_
 - simplex
 - half-duplex
 - full-duplex
+
+Segundo Forouzan (2006) o conjunto dos vários dispositivos e links que possibilitam conectar redes geograficamente distribuídas, ou mesmo as redes locais, deve atender os seguintes critérios:
+- _desempenho:_ métricas
+- _confiabilidade:_ Qualidade do serviço QoS
+- _segurança:_ políticas de acesso
 
 
 ## Importância e aplicações de redes de computadores

@@ -2,8 +2,8 @@
 
 _Formas que a rede pode ser organizada:_
 	- SIMPLEX:  a comunicação ocorre em apenas um sentido. Ex: computador para impressora
-	- HALF-DUPLEX: a comunicação ocorre nos dois sentidos, mas não simultaneamente. Ex: walktok
-	- FULL-DUPLEX: os dados trafegam nos dois sentidos simultaneamente
+	- HALF-DUPLEX: a comunicação ocorre nos dois sentidos, mas não simultaneamente. Ex: walktok, Hub
+	- FULL-DUPLEX: os dados trafegam nos dois sentidos simultaneamente. Ex. Switch
 ![](intranet.png)
 ![](extranet_internet.png)
 
