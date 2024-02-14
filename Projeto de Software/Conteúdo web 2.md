@@ -1,4 +1,3 @@
-
 # Manifesto Ágil 
 Alexandre Quinteiro
 

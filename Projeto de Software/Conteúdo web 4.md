@@ -1,5 +1,4 @@
-
-## Diferenças e semelhanças na concepção e no desenvolvimento do projeto
+# Diferenças e semelhanças na concepção e no desenvolvimento do projeto
 
 > A engenharia de software é uma área que reúne, ao longo dos anos, relatos de sucessos e fracassos do desenvolvimento de software. Dessa forma, os livros são boas fontes de conhecimento, já que nos remetem a situações que podem apresentar soluções genéricas para diversas situações
 

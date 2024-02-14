@@ -1,4 +1,3 @@
-
 # Protocolos e serviços de rede
 
 Padronizar a forma das pessoas se comunicarem pode garantir que as informações sejam passadas e compreendidas de forma correta. Os processos necessários para a padronização podem variar conforme o tipo de aplicação ou entidade que fará os estudos e análises.

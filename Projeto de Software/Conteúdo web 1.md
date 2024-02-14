@@ -1,5 +1,4 @@
-
-## O que é gerenciamento de projetos?
+# O que é gerenciamento de projetos?
 
 > _Gerenciamento de projeto é a arte de dar respostas ruins a problemas que tratados de outras formas teriam respostas ainda piores (SAATY, 2005)._
 

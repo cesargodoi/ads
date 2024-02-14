@@ -1,4 +1,3 @@
-
 # Mapeamento de riscos
 
 *Projeto:* todo produto ou serviço com resultado único e que necessita do empreendimento de um esforço temporário. Em projeto lidamos com o novo e desconhecido, por isso entramos em um ambiente de incertezas e riscos.
