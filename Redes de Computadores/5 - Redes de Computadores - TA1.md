@@ -12,71 +12,14 @@ Rede de computadores:
 
 Redes(dispositivos autônomos conectas entre si)  !== sistemas distribuídos (configurados como se fossem um só)
 
-## Conceitos históricos de rede:
-_inicio 1961 a 1972_
-- pós 2a guerra
-- Leonardo Kleinrock (61-64), MIT: técnica de comutação de pacotes em rajadas
-- ARPANET(primeira rede) e NCP(Network Control Protocol - primeiro protocolo)
-- segundo Kurose (2006) os primeiros estudos relacionados a redes de computadores ocorreram no inicio da década de 1960
-- Paul Baran (1964) efetuou a transmissão segura de voz em redes militares
-- 1969 a (UCLA) instalaou a primeira rede com capacidade de transmissão de mensagens por meio de mensagens
-- 1972 primeiro protocolo de comunicação em rede chamado NCP (Network Control Protocol)
-_surgimentode mais redes - 1972 a 1980_
-- ALOHAnet: uma rede que ligava as universidades existentes nas ilhas do Havai
-- Cyclades: rede francesa com comutação de pacotes
-- Final da década 1970, o interesse militar americano na comunicação via rede favorecia as pesquisas (DARPA), foram projetadas as primeiras versões do protocolo TCP, IP e UDP
-- Redes SNA
- - interesse militar americano
-_aumento do número de redes - 1980 a 1990_
-- Kurose (2006) descreve que, ao final da década de 1980, as universidades formaram uma confederação de redes com aproximadamente 100.000 dispositivos. Grande parte disso se deu no dia 1o de janeiro de 1983, quando o protocolo TCP/IP foi adotado oficialmente. Além disso surge o sistema de controle de nomes de domínios (DNS) que possibilitou a associação de um número de IP a um nome de um domínio. 
-- iniciativa privada
-- 1o janeiro de 1983: adoção oficial do TCP/IP
-- surgimento do DNS
-- Na década de 1980, o projeto Minitel, disponibilizou para 20% da população 3 tipos de serviços digitais: acesso a lista telefônica, navegação por sites particulares, utilização de homebank
-_Período evolutivo da internet - década de 1990_
-- A maior contribuição segundo Kurose (2006) surgiu na década de 1990. A principal foi a World Wide Web (WWW) - CERN
-- Ocorreu a evolução do hipertexto (html) para desenvolvimento de websites de dos navegadores.
-- Netscape e Internet Explorer
-- e-mail, e-commerce, ICQ, Napster(MP3 via P2P)
-_Atualmente_
-- evolução das tecnologias desenvolvidas para a comunicação
-- interdependencia entre os protocolos: HTTP/DNS/TCP/IP
-- vídeo on demand, VoIP, jogos online, streaming de músicas, entre outras
-- conexão de vários dispositivos à rede
-- IoT e 5G
+[Cronologia das Redes de Computador](Cronologia%20das%20Redes%20de%20Computador.md)
 
 ## Princípios de Comunicação de dados
 
-#### Sinais analógicos X Sinais digitais
-
 [Tipos de sinais](Tipos%20de%20sinais.md)
+[Meios de Transmissão](Meios%20de%20Transmissão.md)
 
-![](modos_transmissao.jpg)
 
-#### Tipos e meios de transmissão: 
-- Guiado
-	- par- trançado: 
-		- nesta modalidade os fios são enrolados de forma helicoidal, pela qual ocorre menos interferência, uma vez que as ondas formadas envolta dos fios se cancelam
-		- esses fios suportam sinais analógicos e digitais nas suas transmissões e são divididos em CAT 5, 5e, 6 e 7, que se diferenciam pela largura da banda suportada, ou pela presença ou não de blindagem.
-		- ![](par_trancado.png)
-	- cabo coaxial
-		- tem um núcleo de cobre, envolto por uma camada plástica isolante, circundada por uma malha externa
-		- possibilita ligar redes com distancia maiores, maior velocidade que o par trançado e recebe menos ruidos
-		- 10Base2 - 10 Mbps e segmentos de até 185m
-		- 10Base5 - banda larga e alcance de até 500m
-		![](cabo_coaxial.jpg)
-	- fibra óptica
-		- o cabo é constituído por um núcleo e uma casca de sílica em sua volta
-		- a luz é injetada por leds onde os dados são transmitidos
-		- ao receber as informações, o sinal óptico é transformado em sinal elétrico
-		- nesse tipo de transmissão é possível alcançar velocidades de até 10 terabytes por segundo
-		- ![](fibra_optica.jpg)
-- Não guiados
-	- Rádio
-		- torres de transmissão até o ponto de instalação das antenas receptoras. Obtáculos causam perda da qualidade e as vezes até falha no sinal.
-	- Microondas
-		- viajam em linha reta entre o emissor e o receptor. Até 80km da antena a 100m no solo plano. Faz-se necessário que haja visada entre as antenas
-	- Satélites: os sinais são enviados para os satélites geoestacionários. São divididos em LEO (Low Earth Orbit), MEO (Medium Earth Orbit) e o HEO (Hight Earth Orbit).
 
 #### Modos de Operação
 
@@ -155,7 +98,7 @@ Computação ubíqua
 
 ## Hardwares de rede
 
-[Componentes de uma rede](Componentes%20de%20uma%20rede.md)
+[Componentes e equipamentos de uma rede](Componentes%20e%20equipamentos%20de%20uma%20rede.md)
 
 [Topologia de redes](Topologia%20de%20redes.md)
 
@@ -211,24 +154,7 @@ Computação ubíqua
 - Exemplos: WANs, ligações dedicadas
 ![](rede-ponto-a-ponto.jpg)
 
-### Topologias de redes
-[RESUMO DO VIDEO CW1](RESUMO%20DO%20VIDEO%20CW1.md)
-#### Topologia Malha
-- cada um dos dispositivos da rede (nós) possui um link dedicado com os demais da rede
-- ![](topologia_malha.jpg)
-
-#### Topologia em anel
-- cada dispositivo possui uma conexão com seu "vizinho". O sinal, quando enviado, percorre o anel até que o destino seja encontrado
-- ![](topologia_anel.jpg)
-
-#### Topologia estrela
-- cada dispositivo possui um link ponto a ponto com um concentrador, podendo este ser um hub, roteador ou switch
-![](topologia_estrela.jpg)
-#### Topologia de barramento
-- esta topologia é considerada ponto a ponto, pois para fazer a cenexão é necessário um backbone (tronco central) para interligar os dispositivos
-![](topologia_barramento.jpg)
-
-
+[Topologia de redes](Topologia%20de%20redes.md)
 ## Resolução da situação problema
 
 ### Otimizando a infraestrutura de uma rede de computadores
